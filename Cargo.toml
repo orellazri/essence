@@ -1,0 +1,15 @@
+[package]
+name = "essence"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.98"
+clap = { version = "4.5.41", features = ["derive"] }
+env_logger = "0.11.8"
+hound = "3.5.1"
+log = "0.4.27"
+ollama-rs = { version = "0.3.2", features = ["stream"] }
+tokio = { version = "1.46.1", features = ["full"] }
+tokio-stream = "0.1.17"
+whisper-rs = { version = "0.14.3", features = ["metal"] }
